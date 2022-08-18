@@ -1,0 +1,10 @@
+.contentJoin {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 715px){
+    .contentJoin {
+        display: grid;
+    }
+}

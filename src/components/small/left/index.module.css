@@ -1,0 +1,27 @@
+.outerJoinLeft {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: grid;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.centerJoin {
+    color: #fff;
+    margin: 0 70px;
+}
+.centerJoin h2 {
+    font-size: 30px;
+}
+.centerJoin p {
+    font-size: 14px;
+    line-height: 22px;
+}
+@media only screen and (max-width: 715px){
+    .outerJoinLeft {
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+}

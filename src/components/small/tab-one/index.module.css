@@ -1,0 +1,69 @@
+.tab_one {
+    padding: 40px;
+}
+.tab_one h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.tab_one h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.tab_one p {
+    color: red;
+}
+.tab_one input[type="email"],.tab_one input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+}
+.tab_one > div > label {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px 20px;
+    color: #ccc;
+}
+.tab_one span input {
+    margin-right: 15px;
+}
+.tab_one span input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ccc;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.tab_one span input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #00b681;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.tab_one button {
+    background-color: #00b681;
+    border: 1px solid #00b681;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 60px;
+    margin: 15px 0;
+    font-size: 15px;
+}

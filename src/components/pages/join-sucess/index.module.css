@@ -1,0 +1,8 @@
+.contentJoinSucess {
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+.contentJoinSucess > div {
+    text-align: center;
+}

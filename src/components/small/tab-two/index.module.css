@@ -1,0 +1,40 @@
+.tab_two {
+    padding: 40px;
+}
+.tab_two button.back {
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+    font-size: 11px;
+}
+.tab_two a {
+    color: #00b681;
+    text-decoration: none;
+}
+.tab_two p {
+    color: red;
+}
+.tab_two hr {
+    background-color: #ccc;
+    height: 1px;
+    border: none;
+}
+.tab_two > div {
+    margin: 25px 0;
+}
+.tab_two > div > div > div {
+    margin: 15px 0;
+}
+.tab_two span input {
+    margin-right: 15px;
+    accent-color: forestgreen;
+}
+.tab_two button.submit {
+    background-color: #00b681;
+    border: 1px solid #00b681;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 60px;
+    margin: 15px 0;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+.footer {
+    color: #fff;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+.footer a {
+    color: #fff;
+    padding: 0 7px;
+}
+.footer_link {
+    float: right;
+}
